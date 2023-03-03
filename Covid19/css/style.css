@@ -1,0 +1,161 @@
+body {
+    background-color: rgb(234, 234, 241);
+    font-family: 'Lobster', cursive ;
+    line-height: 2;
+}
+
+#h2 {
+	font-size: 70px;
+	font-style: normal;
+	font-stretch: condensed;
+	text-align: center;
+	color: rgb(134, 4, 4);
+}
+
+#h6 {
+    font-size: 20px;
+	font-style: italic;
+	font-stretch: condensed;
+	text-align: center;
+	color: rgb(48, 0, 0);
+}
+
+.input {
+    height: 50px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.input_1 {
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.input_2 {
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+}                      
+
+.btn {                      
+    background-color: rgb(161, 3, 3);
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	border-radius: 5px;
+	height: 50px;
+    width: 350px;
+    font-size: 22px;
+}
+
+.boton {
+	text-align: center;
+    background-color:rgb(187, 38, 38);
+	color:white;
+	font-weight: bolder;
+	border-radius: 8px;
+	height: 25px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.btn1 {
+    color: rgb(255, 46, 9);
+}
+
+.btn2 {
+	background-color: rgb(187, 38, 38);
+	color: rgb(255, 255, 255);
+	font-weight: bolder;
+	border-radius: 10px;
+	height: 150px;
+    width: 450px;
+    font-size: 40px;
+}
+
+.btn3 {
+	font-size: 20px;
+	color: rgb(243, 0, 0);
+}
+
+.informacion {
+	background-color: rgb(234, 234, 241);
+	border-radius: 5px;	
+}
+
+.informacion button:hover {
+    box-shadow: 7px 7px 12px black;
+}
+
+.conteiner2 {
+	background-color:rgb(234, 234, 241);
+	justify-content: center;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.conteiner {
+	background-color: rgb(247, 247, 247);
+	justify-content: center;
+    width: 500px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.label {
+    font-size: 15px;
+	font-style: normal;
+	font-stretch: condensed;
+	text-align: left;
+	color: rgb(0, 0, 0);
+}
+
+#contenido{
+    text-align: center;
+    padding-top: 70px;
+}
+
+#cont{
+    background-color: #939e9e; 
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+    border: 4px solid black;
+    border-radius: 8px;
+    box-sizing: content-box;
+}
+
+
+
+nav ul {
+    list-style: none;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: right;
+    font-size: 16px;
+}
+
+nav ul li a {
+    display: block; 
+	padding: 5px;
+	border-radius: 15px;
+    color: rgb(21, 228, 83);
+    text-decoration: none;
+}
+
+#lista li{
+    display: inline;
+    padding: 3px 3px;
+    height: 100px;
+    width: 100px; 
+}
+
+#lista ul li{
+    display: inline-block;
+}
+
+#contenido table tr td{
+    padding: 30px 40px;
+}

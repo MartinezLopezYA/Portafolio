@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&display=swap">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="../js/valida_user.js"></script>
+    <title>Registrate</title>
+</head>
+<body>
+    <div  align="center">
+        <form action="inserta.php" method="POST">
+            <div class="conteiner">
+                <h2 id="h2">Crea tu cuenta</h2>
+                <label for="">Es rápido y fácil.</label>
+                <br>
+                <br>
+                <input type="text" name="nombre" value="" class="input_2" placeholder="   Nombre" required>
+                <input type="text" name="apellido" value="" class="input_2" placeholder="   Apellido" required>
+                <br>
+                <br>
+                <input type="text" name="id" id="id" value="" class="input_1" placeholder="   Usuario" required>
+                <div id="result-username"></div>
+                <br>
+                <input type="password" name="clave" id="" value="" class="input_1" placeholder="   Contraseña" required> 
+                <br>
+                <br>
+                <label for="" class="label">Fecha de Nacimiento</label>
+                <br>
+                <input type="date"  class="input_1" name="fecha_nacimiento">
+                <br>
+                <br>
+                <br>
+                <input type="submit" name="registrarse" value="Registrate" class="btn">
+            </div>
+        </form>
+    </div>
+    <a class="btn3" href="../index.html">Salir</a>
+</body>
+</html>

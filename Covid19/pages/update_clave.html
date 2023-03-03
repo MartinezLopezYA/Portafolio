@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&display=swap">
+    <script src="../js/update_clave.js"></script>
+    <title>Actualizar Contraseña</title>
+</head>
+<body>
+    <div  align="center">
+        <form action="update_clave.php" method="post">
+            <div class="conteiner">
+                <h2 id="h2">Actualizar contraseña</h2>
+                <hr>
+                <table>
+                    <tr>
+                        <td>
+                            
+                            <input type="text" name="id" id="id" value="" class="input_1" placeholder="   Usuario"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <input type="password" name="clave" id="clva" value="" class="input_1" placeholder="   Contraseña actual"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <input type="password" name="newclv" id="newclv" value="" class="input_1" placeholder="   Contraseña nueva">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <input type="password" name="confirnewclv" id="confirnewclv" value="" class="input_1" placeholder="   Confirmar contraseña"></td>
+                    </tr>
+                </table>
+                <br>
+                <br>
+                <input type="submit" name="conectar" value="Actualiza contraseña" class="btn">
+            </div>
+        </form>
+    </div>
+    <a class="btn3" href="../index.html">Salir</a>
+</body>
+</html>
